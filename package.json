@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-inloco",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "dependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
