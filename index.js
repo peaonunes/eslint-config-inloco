@@ -1,13 +1,6 @@
 module.exports = {
-  'extends': 'airbnb',
+  'extends': ['plugin:prettier/recommended' ,'airbnb'],
   'parser': 'babel-eslint',
-  'settings': {
-    'import/resolver': {
-      'node': {
-        'paths': ['src']
-      }
-    }
-  },
   'rules': {
     'semi': ['error', 'never'],
     'react/sort-comp': ['off', 'always'],
