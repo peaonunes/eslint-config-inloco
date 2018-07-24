@@ -12,7 +12,11 @@ module.exports = {
     'jest/no-identical-title': 'error',
     'jest/prefer-to-have-length': 'warn',
     'jest/valid-expect': 'error',
-    'prettier/prettier': ['error', { 'singleQuote': true }]
+    'prettier/prettier': ['error', {
+      'singleQuote': true,
+      'semi': false,
+      'jsxBracketSameLine': true
+    }]
   },
   'plugins': ['jest'],
   'env': {
