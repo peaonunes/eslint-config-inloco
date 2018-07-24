@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': ['plugin:prettier/recommended' ,'airbnb'],
+  'extends': ['plugin:prettier/recommended', 'airbnb'],
   'parser': 'babel-eslint',
   'rules': {
     'semi': ['error', 'never'],
@@ -11,7 +11,8 @@ module.exports = {
     'jest/no-focused-tests': 'error',
     'jest/no-identical-title': 'error',
     'jest/prefer-to-have-length': 'warn',
-    'jest/valid-expect': 'error'
+    'jest/valid-expect': 'error',
+    'prettier/prettier': ['error', { 'singleQuote': true }]
   },
   'plugins': ['jest'],
   'env': {
